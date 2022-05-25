@@ -2,8 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2C6E4A;">
   <div class="container-fluid">
     <a class="navbar-brand" href="home">
-        {{-- <img src="../../public/image/logo.png"> --}}
-        <p>BekasIn</p>
+        <img src="../../public/image/logo.png"> 
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
