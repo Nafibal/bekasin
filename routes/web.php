@@ -15,15 +15,14 @@ use App\Models\Product;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::get('/product', [ProductController::class, 'index']);
+
+Route::get('/', [ProductController::class, 'home']);
+
+Route::get('/product/{product:slug}', [ProductController::class, 'index']);
 
 Route::get('/profile', function() {
     return view('profile');
