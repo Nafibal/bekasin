@@ -1,0 +1,34 @@
+Product::create([
+  'name' => 'Laptop Asus VivoBook S14 S430UN',
+  'category_id' => 1,
+  'stock' => 1,
+  'price' => 8200,
+  'user' => 'Muh Temo'
+])
+Product::create([
+  'name' => 'Kemeja Flanel Merah',
+  'category_id' => 2,
+  'stock' => 1,
+  'price' => 50,
+  'user' => 'Lisa Jane'
+])
+Product::create([
+  'name' => 'Blouse Pita Mint',
+  'category_id' => 3,
+  'stock' => 1,
+  'price' => 25,
+  'user' => 'Cahya Marica'
+])
+
+Category::create([
+  'name' => 'Elektronik',
+  'slug' => 'elektronik'
+])
+Category::create([
+  'name' => 'Pakaian Pria',
+  'slug' => 'pakaian-pria'
+])
+Category::create([
+  'name' => 'Pakaian Wanita',
+  'slug' => 'pakaian-wanita'
+])
