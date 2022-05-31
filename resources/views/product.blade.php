@@ -1,7 +1,10 @@
 @extends('layouts.main')
 
-@section('container')
+@section('style')
+<link rel="stylesheet" href="./css/main.css">
+@endsection
 
+@section('container')
 <div style="text-align:justify;width:75%; background-color:#FFFFFF; padding:8px;"><img src="https://2.bp.blogspot.com/-_HZaN36xd4k/XAzd_nDM3rI/AAAAAAAAMoM/DfKYGdhLaMstiszQ2WlI3m5foKM8ch2oACLcBGAs/s1600/Review%2BAsus%2BVivoBook%2BS430UN%2BLaptophia.jpg" style="float:left; margin:0 8px 4px 0; width:250px" /><h2>{{ $product->name }}</h2>
   <h2>Rp. {{ $product->price * 1000 }}</h2>
   <h5>Deskripsi</h5>
